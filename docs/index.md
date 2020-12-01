@@ -79,7 +79,7 @@ However, this is not the end of the Python script! We have yet to mention it, bu
 This try/except clause encapsulates the main code with the word “try” in front of the main code, and its corresponding “except” code blocks placed after the main code block. The except statements, also known as “exceptions” are as follows:
 
 ```
-except ZeroDivisionError as e:
+    except ZeroDivisionError as e:
         print(e)
         print("Cannot divide by zero, please enter non-zero value for second number")
         continue
